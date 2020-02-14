@@ -4,12 +4,12 @@ This software is an deep learning application for generating materials microstru
 To use this software, what the algorithm requires as input are a numpy array. The shape of data point is (x, 128, 128) where x is the number of microstructure images and the dimension of microstructure should be two-dimensional (i.e. 128x128). The software will take the microstructure images as input, and train the generative adversarial networks. After training, the generator can be used to produce microstructure images. (The detail about data preprocessing and model is in related sections of published paper). 
 
 ## Requirements ##
-Python 2.7
-Numpy 1.12.1
-Keras 2.0.0
-Pickle
-TensorFlow
-H5PY
+Python 2.7.12;
+Numpy 1.14.0;
+Keras 2.1.2;
+Pickle 2.0;
+TensorFlow 1.5.0-rc1;
+H5PY 2.7.1;
 
 ## Files ##
 1. gan_training.py: The script to train the GAN that can generate two-phase microstructure image.

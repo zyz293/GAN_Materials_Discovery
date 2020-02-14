@@ -2,9 +2,9 @@
 
 ## Requirements ##
 Python 2.7
-Numpy 1.12.1 (or higher)
-Sklearn 0.19.1 (or higher)
-Keras 2.0.0 (or higher)
+Numpy 1.12.1
+Sklearn 0.19.1
+Keras 2.0.0
 Scipy
 Pandas
 Pickle

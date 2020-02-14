@@ -12,12 +12,12 @@ TensorFlow
 H5PY
 
 ## Files ##
-1. sgan_ST_v4.py: The script to train the GAN that can generate two-phase microstructure image.
+1. gan_training.py: The script to train the GAN that can generate two-phase microstructure image.
 2. ScalableG.py: Trained generator of the proposed GAN.
 3. weights.pickle: Weights of the trained generator of the proposed GAN.
 
 ## How to run it
-1. To run sgan_ST_v4.py: use commend 'python sgan_ST_v4.py'. The script will train the GAN and save your GAN.
+1. To run gan_training.py: use commend 'python sgan_ST_v4.py'. The script will train the GAN and save your GAN.
 2. To use trained generator: 
 	1. Download "weights.pickle" and "ScalableG.py" in the same folder.
 	2. Change the "zval" variables in "ScalableG.py" to generate different microstructure images.

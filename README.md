@@ -1,4 +1,7 @@
 # Microstructural materials design via deep adversarial learning methodology
+This software is an deep learning application for generating materials microstructure images using generative adversarial networks. The proposed approach is trained on synthetic 2D microstructure images.
+
+To use this software, what the algorithm requires as input are a numpy array. The shape of data point is (x, 51, 51, 51) where x is the number of microscale volume elements (MVEs) and the dimension of microstructure should be three-dimensional (i.e. 51x51x51). For crystal plasticity dataset, the shape of data point is (x, 224, 224) where x is the number of strain profile images/crops and the size of strain profile image/crop is 224x224. The software will take the row data and corresponding two-point correlation funcion (i.e. integerated domain knowledge with same size as row data) as input, and train the predictive models. (The detail about data preprocessing and model is in related sections of published paper). (Note that two-point correlation funcion can be computed using PyMKS software at http://pymks.org/en/latest/rst/README.html).
 
 ## Requirements ##
 Python 2.7
